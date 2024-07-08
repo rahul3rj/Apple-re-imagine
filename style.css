@@ -17,8 +17,8 @@ width: 100%;
     
   }
 #main{
-    min-height: 100vh;
-    min-width: 100%;
+    height: 100vh;
+    width: 100%;
     background-color: black;
     overflow-x: hidden;
 }
@@ -27,8 +27,9 @@ width: 100%;
     width: 7%;
     /* background-color: blue; */
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 3.2vh;
+    /* padding-top: 3.2vh; */
     /* border-right-style: inset;
     border-right-color: rgb(255, 255, 255);
     border-right-width: 1px; */
@@ -36,6 +37,7 @@ width: 100%;
 #logo i{
     color: white;
     font-size: 4vh;
+    cursor: pointer;
 }
 #nav{
     /* position: absolute; */
@@ -57,7 +59,15 @@ width: 100%;
     margin-left: 2.5vh;
     margin-right: 2.5vh;
     z-index: 1; 
+    cursor: pointer;
+    /* background-color: red; */
 }
+#nav i:hover{
+    color: #333;
+    font-size: 3.5vh;
+    transition: font-size 0.3s ease;
+}
+
 
 #nav ul{
     height: 100%;
@@ -194,6 +204,7 @@ width: 100%;
     transition: 0.3s;
     box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
     background-color: #ffffff;
+    cursor: pointer;
   }
   
   #page1_card button:hover {
@@ -295,6 +306,7 @@ width: 100%;
     transition: 0.3s;
     box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
     background-color: #ffffff;
+    cursor: pointer;
   }
   
   #page2_card button:hover {
@@ -399,6 +411,7 @@ width: 100%;
     transition: 0.3s;
     box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
     background-color: #ffffff;
+    cursor: pointer;
   }
   
   #page3_card button:hover {
@@ -501,6 +514,7 @@ width: 100%;
     transition: 0.3s;
     box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
     background-color: #ffffff;
+    cursor: pointer;
   }
   
   #page4_card button:hover {
@@ -509,12 +523,7 @@ width: 100%;
     background-color: #333;
   }
 
-  /* .content {
-    min-height: 100vh;
-    padding: 20px;
-    margin-top: 10px;
-    background-color: #f0f0f0;
-} */
+  
 
 .footer {
     /* background-color: #1c1c1e; */
